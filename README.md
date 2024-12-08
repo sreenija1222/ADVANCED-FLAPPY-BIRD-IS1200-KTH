@@ -3,20 +3,20 @@ Flappy Bird
 Made by: Sai Santhoshi Srinithya Darbha and Sreenija Veladri
 
 
-1. Running the Code in Terminal (Windows):
+1. Running the Code in Terminal:
    - Navigate to the Flappy Bird directory.
    - Execute the following commands:
      $ make
      $ make install 
 
-2. Encoding -the buttons on the chipkit were encoded to ensure that it is easy to play the game 
+3. Encoding -the buttons on the chipkit were encoded to ensure that it is easy to play the game 
    - BTN1 is called btn4
    - BTN2 is called btn3
    - BTN3 is called btn2
    - BTN4 is called btn1
    - In the below steps the encoded button names will be used to explain the steps to play the game 
    
-3.  Game 
+4.  Game 
    - Select player mode - 1 player or 2 players 
    - Select difficulty- easy, medium, or hard (the gaps decrease in size for different levels -least gap for hard levels)
    - Input name
