@@ -579,7 +579,7 @@ void game() {
     display_string(0, "BTN4- b1");
     display_string(1, "BTN3- b2");
     display_string(2, "BTN2- b3");
-    display_string(3, "BTN2- b4");
+    display_string(3, "BTN1- b4");
     display_update();
     quicksleep(30000000);
     display_clear();
@@ -715,11 +715,11 @@ void game() {
         if(noOfPlayers == 2) {
             if (players[0].finalscore > players[1].finalscore) {
                 char temp6[32];
-                sprintf(temp6, "%s %s", "The Winner Is", players[0].name);
+                sprintf(temp6, "%s %s", "Winner Is", players[0].name);
                 display_string(2, temp6);
             } else if (players[1].finalscore > players[0].finalscore) {
                 char temp7[32];
-                sprintf(temp7, "%s %s", "The Winner Is", players[1].name);
+                sprintf(temp7, "%s %s", "Winner Is", players[1].name);
                 display_string(2, temp7);
             } else {
                 display_string(2, "It's A Tie!");
